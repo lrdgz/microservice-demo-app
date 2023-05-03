@@ -56,7 +56,8 @@ DJANGO_APPS = [
 ]
 
 PROJECT_APPS = [
-
+    'apps.user',
+    'apps.user_profile',
 ]
 
 THIRD_PARTY_APPS = [
@@ -211,7 +212,7 @@ SIMPLE_JWT = {
     )
 }
 
-# AUTH_USER_MODEL = 'user.UserAccount'
+AUTH_USER_MODEL = 'user.UserAccount'
 
 #Djoser
 DJOSER = {
