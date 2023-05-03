@@ -6,7 +6,7 @@ from apps.category.serializers import CategorySerializer  # Import CategorySeria
 class AuthorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Author
-        fields = ['id', 'username','picture']
+        fields = ['id', 'username', 'picture']
 
 class RateSerializer(serializers.ModelSerializer):
     class Meta:
